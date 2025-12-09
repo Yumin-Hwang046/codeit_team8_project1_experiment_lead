@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variable files
+*.env
+*.env.*
+.env.local
+secrets.json
+config.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+wandb/
+
+# MacOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Data (optional — uncomment if you never want to push data)
+# data/
+# *.csv
+# *.parquet
+# *.xlsx
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Models
+*.pth
+*.pt
+*.h5
+models/
+
+# Experiment artifacts
+results/
+artifacts/
